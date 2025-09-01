@@ -14,18 +14,20 @@
     <div class="container">
         <div class="grid-item">
             <label for="startDate" class="form-label">Start Date</label>
-            <input type="date" class="form-control" id="startDate" placeholder="2025-04-21" style="width: 200px;">
+            <input type="datetime-local" class="form-control" id="startDate" value="" placeholder="2025-04-21" style="width: 300px;">
         </div>
         <div class="grid-item">
             <label for="endDate" class="form-label">End Date</label>
-            <input type="date" class="form-control" id="endDate" placeholder="2025-08-15" style="width: 200px;">
+            <input type="datetime-local" class="form-control" id="endDate" value="" placeholder="2025-08-15" style="width: 300px;">
         </div>
     </div>
 
     <div class="button-container">
-        <button class="btn">Click Me</button>
+        <button class="btn" style="display: block;">Click Me</button>
     </div>
-
+    <div class="span-container">
+        <span class="result"></span>
+    </div>
 </body>
 <script src="app.js"></script>
 
